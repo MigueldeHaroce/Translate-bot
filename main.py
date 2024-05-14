@@ -5,7 +5,7 @@ from langdetect import detect
 
 # Initialize intents
 intents = discord.Intents.default()
-intents.messages = True  # Enable the message intent
+intents.messages = True  # Enable the message intenta
 intents.message_content = True  # Enable the message content intent
 # Initialize the Discord client with intents
 client = commands.Bot(command_prefix='!', intents=intents)
