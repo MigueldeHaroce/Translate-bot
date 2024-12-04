@@ -47,4 +47,4 @@ async def on_message(message):
         messages = [translated_message[i:i+2000] for i in range(0, len(translated_message), 2000)]
         for msg in messages:
             await target_channel.send(f"**Translated**: {msg}")
-client.run('MTA0MTA5ODEwNjM5MDk3MDQ1OQ.GoAfmV.UjPdJJoENshSNzHaNjbYYDfW5iUCBezjLanUiM')
+client.run('token')
